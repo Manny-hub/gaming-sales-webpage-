@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    max-width: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color:rgb(250, 250, 250)
+}
+.top-head{
+    background-color: rgb(250, 250, 250);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.top-head h3{
+    margin-left: 150px;
+}
+.btm-head{
+    background-color:#1247bb;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+#sch{
+    width: 700px;
+    height: 5vh;
+    margin-left: 70px;
+    padding-left: 20px;
+    border:1px thin dimgray;
+    outline:none;
+}
+.btm-head a{
+    text-decoration: none;
+    color: white;
+    margin-left:150px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #1247bb;
+    border: none;
+}
+.scn-hlf{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.small-box{
+    padding: 20px 50px;
+    line-height: 20px;
+    text-align: center;
+    color:dimgray;
+    margin: 0px 10px;
+    background-color: white;
+}
+.small-box p{
+    color: black;
+    font-weight: 700;
+}
+.cnt-img h2{
+    font-size: 60px;
+    font-weight:900 ;
+    line-height: 50px;
+    padding-bottom:10px;
+}
+.cnt-img{
+    background-image: url(./images/xboxs.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.und-class{
+    margin: 0px 0px 0px 158px;
+    padding-top: 14rem;
+}
+.icn i{
+    position: absolute;
+}
+.playst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    margin: 20px;
+}
+.first-con{
+    margin-right: 40px;
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+.fst-chd-con{
+    margin-bottom: 65px;
+    position: relative;
+}
+.scn-chd-con{
+    position: relative;
+}
+.playst a{
+    text-decoration: none;
+    color: black;
+}
+.thrd-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+    margin: 10px 15rem;
+    box-shadow: 0px 5px 20px 0px;
+    margin-top: 150px;
+}
+.thrd-sec h2{
+    margin-right: 40rem;
+    color:forestgreen;
+}
+.chr-div img{
+    width: 150px;
+}
+.cont-chr-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.chr-div{
+    padding: 5px 30px;
+    width: 240px;
+    margin: 0 -1px;
+}
+.game-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+    margin: 10px 15rem;
+    box-shadow: 0px 5px 20px 0px;
+    margin-top: 150px;
+}
+.game-tools h2{
+    margin-right: 40rem;
+    color:forestgreen;
+}
+.min-game-tools{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.child-div{
+    padding: 5px 30px;
+    margin: 0 5px;
+}
+.icns a{
+    color: white;
+}
+.game-accesories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+    margin: 10px 15rem;
+    box-shadow: 0px 5px 20px 0px;
+    margin-top: 150px;
+}
+.game-accesories h2{
+    margin-right: 40rem;
+    color:forestgreen;
+}
+.cont-acc-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.acc-div{
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.ss-ad{
+    display: flex;
+    justify-content: center;
+    margin:150px 0 ;
+}
+.hot-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+    margin: 10px 15rem;
+    box-shadow: 0px 5px 20px 0px;
+    margin-top: 150px;
+}
+.hot-div h2{
+    margin-right: 40rem;
+    color:forestgreen;
+}
+.hot-deal-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+footer{
+    background-image: url(./images/IMG-20230115-WA0020.jpg);
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 80px;
+    opacity:0.8;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
